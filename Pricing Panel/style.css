@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto&family=Roboto+Condensed:wght@300&display=swap');
+
+html, body{
+    background-color:#DFDBDA ;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    width: 400px;
+    height: 100px;
+    /* background-color: aquamarine; */
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    color: #A7A09F;
+}
+
+.title>h1{
+    border-bottom: 2px solid #A7A09F;
+    border-radius: 7px;
+  
+
+}
+
+.boxes{
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.boxes>div{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px black;
+
+}
+
+
+.top{
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#basictop{
+    background-color: #6FE881;
+}
+#protop{
+    background-color: #F3C725;
+}
+#buisnesstop{
+    background-color: #EF5C45;
+}
+
+
+
+.top>h3{
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    font-size: 40px;
+
+}
+
+.pricing{
+    
+    width: 300px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+
+}
+
+#price1{
+    color: #6FE881;
+}
+#price2{
+    color: #F3C725;
+}
+#price3{
+    color: #EF5C45;
+}
+
+
+
+.pricing>h5{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 70px;
+}
+
+.about{
+    
+    width: 300px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about>ul>li{
+    list-style-type:none;
+    font-family:  'Fira Sans', sans-serif;
+    color: #A7A09F;
+    border-bottom: 2px dotted #A7A09F;
+    width: 200px;
+    text-align: center;
+}
+
+.button{
+    
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.button>button{
+    color: white;
+    border: none;
+    width: 170px;
+    height: 50px;
+    font-family:  'Fira Sans', sans-serif;
+    font-size: 20px;
+
+}
+
+.button>button:hover{
+    transform: scale(1.05);
+}
+
+
+
+#button1{
+    background-color: #6FE881;
+}
+#button2{
+    background-color: #F3C725;
+}
+#button3{
+    background-color: #EF5C45;
+}
+
+
+/* responsive */
