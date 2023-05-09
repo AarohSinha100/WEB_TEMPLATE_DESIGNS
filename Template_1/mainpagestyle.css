@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:wght@400;900&family=Sigmar&family=Source+Code+Pro:wght@300&display=swap');
+
+/*
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sigmar', cursive;
+font-family: 'Source Code Pro', monospace;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+/*
+font-family: 'Play', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0e0e14; 
+}
+
+.navbar{
+    height: 5vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px 0px 5px;
+    /* border: 2px solid white; */
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 15px 0px 0px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.navbar ul li{
+    padding: 0 10 0 0;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.navbar .ul li:nth-child(1){
+    border-right: 1px solid whitesmoke;
+    padding-left: 5px;
+}
+.navbar .ul li:nth-child(2){
+    padding-left: 10px;
+    border-right: 1px solid whitesmoke;
+}
+.navbar .ul li:nth-child(3){
+    padding-left: 10px;
+}
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: whitesmoke;
+    position: relative;
+    right: 80px;
+    border-bottom: 3px solid gold;
+}
+
+.dropdownbar{
+    /* transform: rotate(90deg); */
+    font-size: 20px;
+    position: relative;
+
+}
+
+.dropdownbar:hover{
+    cursor: pointer;
+    content: attr(X);
+}
+
+.dropdownmenu{
+     display: none; 
+     position: absolute;
+     top: 20px;
+     right: -15px;
+     width: 250px;
+     padding-left: 10px;
+     height: 300px;
+    
+
+}
+
+.dropdownbar:hover .dropdownmenu {
+    display: block;
+    
+}
+
+.dropdownbar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: end;
+}
+
+.dropdownbar ul li{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    width: 150px;
+}
+
+
+.mainbody{
+    width: 100vw;
+    height: 90vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mainbody div{
+    /* border: 2px solid white; */
+}
+
+.left_content{
+    width: 20vw;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.content_left{
+    font-size: 15px;
+    padding: 30px 30px 0px 30px ;
+    text-align: start;
+}
+
+.meet_team{
+    position: relative;
+    left: 50px;
+    text-align: center;
+    width: 150px;
+    padding-top: 30px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid gold;
+    font-size: 14px;
+}
+
+.meet_team a{
+    color: white;
+    text-decoration: none;
+}
+
+.meet_team a:hover{
+    color: gold;
+    text-decoration: none;
+}
+
+.middle_content{
+    color: white;
+    width: 60vw;
+    font-family: 'Play', sans-serif;
+    font-weight: 800;
+    font-size: 180px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 160px;
+}
+
+/* .creative{
+    border-bottom: 3px dotted white;
+    border-left: 3px dotted white;
+    border-radius: 15px;
+} */
+
+.middle_content span{
+    display: block;
+}
+
+.right_content{
+    width: 20vw;
+    font-family: 'Source Code Pro', monospace;
+    position: relative;
+}
+
+.content_right{
+    font-size: 15px;
+    padding: 30px 30px 0px 30px ;
+    text-align: start;
+    position: absolute;
+    bottom: 70px;
+}
+
+.lets_talk{
+    position: absolute;
+    left: 70px;
+    text-align: center;
+    width: 150px;
+    padding-top: 30px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid gold;
+    font-size: 14px;
+    bottom: 10px;
+}
+
+.lets_talk a{
+    color: white;
+    text-decoration: none;
+}
+
+.lets_talk a:hover{
+    color: gold;
+    text-decoration: none;
+}
+
+
+
+
